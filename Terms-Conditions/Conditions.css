@@ -1,0 +1,23 @@
+
+.form-check-input:checked{
+  background: rgba(164, 213, 219, 1);
+
+}
+.form-check-input[type=radio] {
+  background: rgba(164, 213, 219, 1);
+}
+.rjj-font{
+  font-family: Space Grotesk;
+font-size: 17px;
+font-weight: 700;
+line-height: 23px;
+letter-spacing: -0.015em;
+/* color: rgba(0, 0, 0, 1); */
+color:#495057;
+
+
+}
+.spn-text{
+  color: rgba(0, 0, 0, 1);
+;
+}

@@ -1,0 +1,408 @@
+
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+	border-bottom: 1px solid #ccc;
+}
+
+.accordion:last-of-type {
+	border-bottom: 0;
+}
+
+/* .active,
+.accordion:hover {
+	background-color: #ccc;
+} */
+
+/* .accordion:after {
+	content: "\002B";
+	color: #777;
+	font-weight: 700;
+	float: right;
+	margin-left: 5px;
+} */
+
+/* .active:after {
+	content: "\2212";
+} */
+
+.panel {
+	padding: 0 18px;
+	background-color: #fff;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px){
+    .accordion {
+        font-size: 10px;
+    }
+
+    
+ 
+    .top-h {
+        text-align:center;
+        font-size: 24px;
+       margin-top:50px;
+      }
+    .main-p {
+        padding: 15px ;
+      }
+    .butm-p {
+        text-align:center;
+        font-size: 25px;
+        
+      }
+    .ck_carousel4_text1{
+        display:none;
+    }
+    .wrapper{
+       margin-left:60px;
+    }
+
+    .ck_card_111{
+        width:1rem;
+    }
+
+    .ck_75768{
+        display:none;
+    }
+    .rjj-city {
+        font-size: 26px;
+    }
+    .main-shdow {
+        margin-bottom: 0px;
+        /* margin-top: 140px; */
+        left: 0rem;
+    }
+
+    .ms_mobilepading {
+    padding: 10px 0px;
+}
+.heroHading-rjj {
+   
+    font-size: 42px;
+}
+.text-tech {
+    /* font-size: 25px; */
+    font-size: 35px;
+
+}
+.text-app {
+    font-size: 18px;
+}
+
+.onlylne {
+         margin-top: 0rem;
+    margin-left: 0rem;
+}
+.sp-rjj{
+    font-size: 25px;
+}
+.news-h{
+    font-size: 30px;
+    text-align: center;
+}
+.blog-h{
+    font-size: 30px;
+    text-align: center;
+}
+.blog-p{
+    text-align: center;
+}
+.btn_rjj1{
+    text-align: center;
+}
+/* .rjj-textC {
+    padding: 44px
+} */
+.btn-rjj2 {
+    width: 306.5px;
+}
+.btn-rjj3 {
+    /* border: none; */
+    padding: 7px 23px;
+}
+.btn-rjj2 {
+    /* width: 470.5px; */
+    height: 41px;
+}
+.input1 {
+    padding: 8px 11px;
+}
+.rightImgeMainDivision {
+    z-index: -1;
+    top: 2rem;
+    left: 0rem;
+}
+.rjj_main {
+    width: 100%;
+}
+.h-work{
+    font-size: 24px;
+}
+.h-hit{
+    font-size: 15px;
+}
+.rjj_idea {
+   
+    text-align: center;
+ 
+    font-size: 25px;
+}
+.rjj_re {
+ 
+    font-size: 24px;
+}
+.rjj_web {
+  
+    font-size: 15px;
+}
+.rjj_h {
+       
+    font-size: 13px;
+}
+.rjj_p{
+    font-size: 10px;
+}
+/* .rjj_web {
+    font-size: 16px;
+} */
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+}
+@media (min-width: 481px) and (max-width: 768px){
+
+    .top-h {
+        text-align:center;
+        font-size: 24px;
+       margin-top:50px;
+      }
+    .main-p {
+        padding: 15px ;
+      }
+    .butm-p {
+        text-align:center;
+        font-size: 25px;
+        
+      }
+    .ck_carousel4_text1{
+        display:none;
+    }
+    .wrapper{
+       margin-left:60px;
+    }
+
+    .ck_card_111{
+        width:1rem;
+    }
+
+    .ck_75768{
+        display:none;
+    }
+    /* .video-frame {
+     
+        height: 147px;
+    } */
+    .onlylne {
+        margin-left: 0rem;
+    }
+    .text-tech {
+        font-size: 40px;
+    }
+    .rightImgeMainDivision {
+        z-index: -1;
+        top: 0rem;
+        left: 0rem;
+    }
+    .rjj_main {
+        width: 100%;
+    }
+    .rjj_idea {
+   
+        text-align: center;
+     
+        font-size: 25px;
+    }
+    .rjj_re {
+ 
+        font-size: 24px;
+    }
+    .rjj_web {
+      
+        font-size: 15px;
+    }
+    .rjj_h {
+       
+        font-size: 13px;
+    }
+    .rjj_p{
+        font-size: 10px;
+    }
+    /* .rjj_web {
+        font-size: 16px;
+    } */
+    .h-work {
+        /* color: #38484F;
+        text-align: center;
+        font-family: Space Grotesk; */
+        font-size: 43px;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 992px){
+
+    .ck_76768{
+        display:none;
+    }
+
+
+    .top-h {
+        /* text-align:center; */
+        font-size: 40px;
+       margin-top:50px;
+      }
+    .main-p {
+        padding: 15px ;
+      }
+    .butm-p {
+        /* text-align:center; */
+        font-size: 25px;
+        
+      }
+    .ck_carousel4_text1{
+        display:none;
+    }
+    .wrapper{
+       margin-left:60px;
+    }
+
+    .ck_card_111{
+        width:1rem;
+    }
+
+    
+    .rjj_main {
+        width: 100%;
+    }
+    /* .rjj_h {
+       
+        font-size: 13px;
+    } */
+    .rjj_p{
+        font-size: 10px;
+    }
+    .rjj_web {
+        font-size: 16px;
+    }
+    .rjj_idea {
+        font-size: 34px;
+    }
+    .h-work {
+        /* color: #38484F;
+        text-align: center;
+        font-family: Space Grotesk; */
+        font-size: 43px;
+    }
+    .blog-p {
+       
+        font-size: 27px;
+    }
+    .rjj-body{
+        text-align: center;
+    }
+    .rjj_crcl {
+     
+        left: 314px;
+    }
+    .icon {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .rjj_fex{
+        width: 140%;
+    }
+    .rightImgeMainDivision {
+        /* left: 4rem; */
+        top: 13rem;
+    }
+    .ft-rjj{
+        /* text-align: center; */
+        width: 100%;
+    }
+    .ft2-rjj{
+        width: 33.3%;
+    }
+
+
+
+}
+@media (min-width: 993px) and (max-width: 1200px){
+    .btn{
+        font-size: 10px;
+    }
+
+    .ck_76768{
+        display:none;
+    }
+    .rjj-body{
+        padding: 15px;
+    }
+    .rjj_crcl {
+        position: absolute;
+        left: 1px;
+        top: 53px;
+    }
+    .text-tech {
+        font-size: 35px;
+    }
+    .sp-rjj{
+        font-size: 35px;
+    }
+    .rightImgeMainDivision {
+        z-index: -1;
+        top: 15rem;
+    }
+    .rjj_fex{
+        width: 140%;
+    }
+
+}
+@media (min-width: 1201px) and (max-width: 1400px) {
+    .ck_76768{
+        display:none;
+    }
+}
+
+@media (min-width: 1401px) and (max-width: 1600px) {
+    .ck_76768{
+        display:none;
+    }
+}
+
+
+
+
+
+
+
